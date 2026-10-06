@@ -4,8 +4,8 @@ class Person {
     final String country = "Indonesia";
 
     Person(String paramName, String paramAddress) {
-        name = paramName;
-        address = paramAddress;
+        this.name = paramName;
+        this.address = paramAddress;
     }
     //overloading
     Person(String paramName) {
@@ -16,7 +16,7 @@ class Person {
         this("");
     }
 
-    void sayHello(String paramName) {
-        System.out.println("Hello " + paramName + ", My Name is " + name);
+    void sayHello(String name) {
+        System.out.println("Hello " + name + ", My Name is " + this.name);
     }
 }
