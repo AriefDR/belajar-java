@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/belajar-java.iml" filepath="$PROJECT_DIR$/.idea/belajar-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-dasar/belajar-java-dasar.iml" filepath="$PROJECT_DIR$/belajar-java-dasar/belajar-java-dasar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-java-oop/belajar-java-oop.iml" filepath="$PROJECT_DIR$/belajar-java-oop/belajar-java-oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-terminal-todolist/java-terminal-todolist.iml" filepath="$PROJECT_DIR$/java-terminal-todolist/java-terminal-todolist.iml" />
+    </modules>
+  </component>
+</project>
