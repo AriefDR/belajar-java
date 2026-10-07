@@ -1,0 +1,26 @@
+package programmer.zaman.now.application;
+
+import programmer.zaman.now.data.Company;
+
+public class CompanyApp {
+    static void main(String[] args) {
+
+        Company company = new Company();
+        company.setName("Arief Dwi Rachamdian");
+
+        Company.Employee employee = company.new Employee();
+        employee.setName("Arie");
+
+        System.out.println(employee.getName());
+        System.out.println(employee.getCompany());
+
+        Company company2 = new Company();
+        company2.setName("Belum ada");
+
+        Company.Employee employee2 =  company2.new Employee();
+        employee2.setName("Bydi");
+
+        System.out.println(employee2.getName());
+        System.out.println(employee2.getCompany());
+    }
+}
